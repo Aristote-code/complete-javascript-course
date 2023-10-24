@@ -2,4 +2,9 @@
 
 // functions
 // -> function declarations
-function alcAge
+function CalcAge (birth) {
+    return 2037 - birth;
+}
+
+// -> function expressions
+const 
