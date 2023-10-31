@@ -10,6 +10,7 @@ document.querySelector('.check').addEventListener('click',
 
         if (score === 0) {
             document.querySelector('.message').textContent = '😔 you lost';
+            document.querySelector('body').style.background
         }
         else {
             if (!guess) {
@@ -20,7 +21,7 @@ document.querySelector('.check').addEventListener('click',
                 if (guess === secreteNumber) {
                     document.querySelector('.message').textContent = '😃 you made it';
                     document.querySelector('.highscore').textContent = score;
-                    document.querySelector('body').style.background
+                    document.querySelector('body').style.backgroundColor = 'green';
                 }
                 else if (guess > secreteNumber) {
                     document.querySelector('.message').textContent =
