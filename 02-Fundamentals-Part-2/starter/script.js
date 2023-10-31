@@ -119,7 +119,7 @@ jonas.calcAge(); */
 //     }
 // }
 
-const ompare = {
+/* const Compare = {
      mark : {
         FirstName: 'Mark',
         LastName: 'Miller',
@@ -153,4 +153,32 @@ const ompare = {
 
 }
 
-compare.compare();
+Compare.compare(); */
+
+/* const bil = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+
+const calcTip = function (bills) {
+    let tips = [];
+    let totals = [];
+
+    for (let i = 0; i < bills.length; i++){
+        if (50 <= bills[i] <= 300){
+            let Tip = bills[i] * (15/100);
+            tips.push(Tip);
+            let total = Tip + bills[i];
+            totals.push(total);
+        }
+        else{
+            let Tip = bills[i] * (20/100);
+            tips.push(Tip);
+            let total = Tip + bills[i];
+            totals.push(total);
+        }
+        
+    }
+    console.log(tips, totals);
+    return {tips, totals};
+}
+
+calcTip(bil);
+ */
